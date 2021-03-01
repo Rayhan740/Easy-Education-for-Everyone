@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        	<meta charset="UTF-8">
+        	<title> Easy Education For Evevryone</title>
+
+
+          <style>
+			  #div1{
+			   background-color:yellow;
+			   height:100px;
+			   max-width:1600px;
+		   }
+
+		   body{
+			   margin:0;
+			   padding:0;
+			   overflow:scroll;
+			   background-color:cadetblue;
+		   }
+
+		   h1{
+			   text-align:center;
+			   color:black;
+			   font-size:50px;
+			   font-family:monospace;
+			   text-shadow: 5px 3px gray;
+		   }
+
+		   h2{
+			   text-align:center;
+			   color:black;
+			   font-size:30px;
+			   font-family:cursive;
+			   text-shadow:5px 3px gray;
+			   text-decoration:underline;
+		   }
+
+		   input[type="text"]{
+			   width:20%;
+			   padding:10px 20px;
+			   font-size:1rem;
+			   margin:20px 0;
+			   box-sizing:border-box;
+			   border:3px solid salmon;
+			   border-radius:5px;
+		   }
+
+		   input[type="number"]{
+			   width:20%;
+			   padding:10px 20px;
+			   font-size:1rem;
+			   margin:20px 0;
+			   box-sizing:border-box;
+			   border:3px solid salmon;
+			   border-radius:5px;
+
+		   }
+
+		   input[type="email"]{
+			   width:20%;
+			   padding:10px 20px;
+			   font-size:1rem;
+			   margin:20px 0;
+			   box-sizing:border-box;
+			   border:3px solid salmon;
+			   border-radius:5px;
+		   }
+
+		   input[type="date"]{
+			   width:20%;
+			   padding:10px 20px;
+			   font-size:1rem;
+			   margin:20px 0;
+			   box-sizing:border-box;
+			   border:3px solid salmon;
+			   border-radius:5px;
+		   }
+
+		   textarea{
+			   resize:none;
+			   width:50%;
+			   padding:20px;
+			   border:3px solid gray;
+			   border-radius:5px;
+		   }
+
+		   select{
+			   border:none;
+			   width:20%;
+			   padding:20px;
+			   background-color:tomato;
+			   border-radius:10px;
+		   }
+
+		   input[type="button"]{
+			   border:none;
+			   width:100px;
+			   background-color:indianred;
+			   color:whitesmoke;
+			   padding:10px;
+			   cursor:pointer;
+		   }
+
+
+
+
+
+
+
+
+			  </style>
+
+
+
+
+
+
+
+
+        </head>
+
+
+        <body>
+        	<div id="div1"><h1>Easy Education for Everyone</h1></div>
+
+       	<h2><b>Registartion form</b></h2><br>
+
+        <form>
+      		<div>
+      			<label for ="fullname">Student Name:</label> <input type="text" name="fullname " id="fullname" required>
+      		</div><br>
+
+      		<div>
+      			<label for ="fullname1">Father Name:</label> <input type="text" name="fullname1" id="fullname1" required>
+      		</div><br>
+
+      		<div>
+      			<label for ="fullname2">Mother Name:</label> <input type="text" name="fullname2 " id="fullname2" required>
+      		</div><br>
+
+      		<div>
+      			<label for ="fullname3">Institution Name:</label> <input type="text" name="fullname3 " id="fullname3" required>
+      		</div><br>
+
+            <div>
+      		<label for ="pn">Phone Number:</label> <input type="number" name="pn " id="pn" required>
+      	    </div><br>
+
+      	    <div>
+      		<label for ="email">Email:</label> <input type="email" name="email " id="email">
+      	    </div><br>
+
+      	    <div>
+      		<label for ="dob">Date of Birth:</label> <input type="date" name="date " id="date">
+      	    </div><br>
+
+      	    <div>
+      		<label for ="photo">Choose your photo:</label> <input type="file" name="photo " id="photo">
+      	    </div><br>
+
+      	    <div>
+      		<label for ="gender">Gender:</label> <input type="radio" name="gender"  id="gender" value="male">Male
+      		<input type="radio" name="gender"  id="gender" value="female">Female
+      		<input type="radio" name="gender" id="gender" value="others">Others
+      	    </div><br>
+
+      	    <div>
+      		<label for ="religion">religion:</label> <input type="checkbox" name="religion1"  id="muslim" value="islam">Islam
+      		<input type="checkbox" name="religion2"  id="hindu" value="hindu">Hindu
+      		<input type="checkbox" name="religion3" id="christian" value="christian">Christian
+      		<input type="checkbox" name="religion4" id="others" value="others">Others
+      	    </div><br>
+           
+
+           <div>
+           	<label for ="Class">Class:</label>
+           	<select name="Class">
+               <option value="SSC">SSC</option>
+                <option value="HSC">HSC</option>
+                 <option value="Engineering" selected>Engineering</option>
+                  
+           	</select><br><br>
+
+
+           	<div>
+               <lebel for="massage">Write about your hobbies:</lebel><br>
+               <textarea cols="30" rows="20"></textarea>
+
+           	</div>
+
+
+            <div>
+              <input type="button" value="Register">
+               <input type="button" value="Clear">
+
+            </div> 
+      	
+      	</form>
+
+
+
+        </body>
+
+</html>
